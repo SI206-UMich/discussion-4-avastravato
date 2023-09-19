@@ -17,7 +17,8 @@ class Rectangle():
     #       "A rectangle with width ____ and height ____"
 
     # YOUR CODE HERE
-
+    def __str__(rec):
+        return "A rectangle with width " + str(rec.width) + " and height " + str(rec.height)
 
 
     # Create the "verify_input" method
